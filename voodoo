@@ -1,0 +1,10 @@
+#!/bin/bash
+export MAKE
+#Fire up menuconfig
+if [ "$1" == "m" ]; then
+	cd out/target/product/lcsh89_wet_kk/obj/KERNEL_OBJ
+	ARCH=arm TARGET_PRODUCT=lcsh89_wet_kk make menuconfig
+	cp .config ../../../../../../mediatek/config/lcsh89_wet_kk/autoconfig/kconfig/project
+	cd ../../../../../../
+fi
+./makeMtk -t lcsh89_wet_kk n k
