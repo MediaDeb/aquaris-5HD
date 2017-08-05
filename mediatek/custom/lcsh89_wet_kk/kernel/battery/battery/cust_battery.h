@@ -33,7 +33,7 @@ typedef struct{
 #define ERR_CHARGE_TEMPERATURE  0xFF
 
 /* Recharging Battery Voltage */
-#define RECHARGING_VOLTAGE      4110
+#define RECHARGING_VOLTAGE      3750
 
 /* Charging Current Setting */
 #define CONFIG_USB_IF 						0   
@@ -41,6 +41,7 @@ typedef struct{
 #define USB_CHARGER_CURRENT_UNCONFIGURED	Cust_CC_70MA	// def CONFIG_USB_IF
 #define USB_CHARGER_CURRENT_CONFIGURED		Cust_CC_450MA	// def CONFIG_USB_IF
 #define USB_CHARGER_CURRENT					Cust_CC_450MA
+
 #if defined(SLT_DRV_AW992_CONFIG)
 #define AC_CHARGER_CURRENT					Cust_CC_800MA	
 #else

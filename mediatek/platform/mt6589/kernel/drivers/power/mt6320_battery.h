@@ -9,7 +9,7 @@
 #define PRE_CHARGE_VOLTAGE                  3200
 #define SYSTEM_OFF_VOLTAGE                  3400  
 #define CONSTANT_CURRENT_CHARGE_VOLTAGE     4100  
-#define CONSTANT_VOLTAGE_CHARGE_VOLTAGE     4200  
+#define CONSTANT_VOLTAGE_CHARGE_VOLTAGE     4100  
 #define CV_DROPDOWN_VOLTAGE                 4000
 #define CHARGER_THRESH_HOLD                 4300
 #define BATTERY_UVLO_VOLTAGE                2700
@@ -22,7 +22,7 @@
 #define MAX_CHARGING_TIME                   24*60*60 	// 24hr
 #define MAX_POSTFULL_SAFETY_TIME       		1*30*60 	// 30mins
 #define MAX_PreCC_CHARGING_TIME         	1*30*60  	// 0.5hr
-#define MAX_CV_CHARGING_TIME              	3*60*60 	// 3hr
+#define MAX_CV_CHARGING_TIME              	1*30*60 	// 30 min
 //#define MAX_CV_CHARGING_TIME              	24*60*60 	// 24hr
 #define MUTEX_TIMEOUT                       5000
 #define BAT_TASK_PERIOD                     10 			// 10sec
