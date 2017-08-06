@@ -1095,7 +1095,7 @@ MTK_SCOMO_ENTRY=no
 MTK_SCREEN_OFF_WIFI_OFF=no
 
 # This feature option is used to enable SDIOAutoKService. LTE driver can take advantage of SDIOAutoKService to invoke auto-K process. Auto-K process can also use SDIOAutoKService to do File IO
-MTK_SDIOAUTOK_SUPPORT=no
+MTK_SDIOAUTOK_SUPPORT=yes
 MTK_SD_SUPPORT=yes
 
 # It is used to control database operation for contacts and call log search, and shared by both Java code and native code.
